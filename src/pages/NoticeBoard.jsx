@@ -1,4 +1,3 @@
-// NoticeBoard.js
 import React, { useState } from "react";
 import styles from "../styles/Notice.module.css";
 import { Note } from "../components/Note";
@@ -15,12 +14,11 @@ export const NoticeBoard = () => {
     };
     setNotes([...notes, newNote]);
   };
-  console.log(notes);
+
   const deleteNote = (id) => {
     const updatedNotes = notes.filter((el) => el.id !== id);
     setNotes(updatedNotes);
   };
-  console.log(notes, "del");
 
   const editNote = (id, newContent) => {
     const updatedNotes = notes.map((el) =>
@@ -28,7 +26,7 @@ export const NoticeBoard = () => {
     );
     setNotes(updatedNotes);
   };
-  console.log(notes, "edit");
+
   return (
     <div className={styles.main}>
       <button className={styles.addBtn} onClick={addNote}>
