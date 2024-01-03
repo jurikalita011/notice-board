@@ -1,10 +1,53 @@
-## A notice board containing notes has been built.
-It was assigned to build a notice board that contains an add button(+) on its top right. Upon clicking the add button, the new editable notes are to be created. The notes are draggable unless they have been pinned on certain positions, which do not overlap with other notes. The notes can also be deleted.
-## Tech- Stacks used - React JS, HTML, CSS.
-## Time duration- 1 day
-To create the react project do **npx create-react-app app-name**
-<br/>
-To start on your local system do **npm run start**
+# Notice Board React App
 
-## The project has been deployed on Vercel.
-To Know more visit [Vercel](https://vercel.com/)
+This React app is a simple and interactive notice board that allows users to add, edit, drag, pin, and delete notes. The project is built using React JS, HTML, and CSS, and it can be easily deployed on Vercel.
+
+## Getting Started
+
+To set up the project on your local system, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   
+2. **Change into the project directory:**
+   ```bash
+   cd <project-directory>
+   
+3. **Install dependencies:**
+   ```bash
+   npm install
+   
+4. **Start the development server:**
+   ```bash
+   npm run start
+
+The app will be running on `http://localhost:3000/`.    
+
+# Usage
+## Adding Notes
+Click the "+" button in the top right corner to add new editable notes.
+
+## Editing Notes
+Simply click on a note to edit its content.
+
+## Dragging Notes
+Notes can be dragged to different positions on the notice board.
+
+## Pinning Notes
+Click on the pin icon of a note to lock it in a certain position. Pinned notes are not draggable.
+
+## Deleting Notes
+Click on the delete icon of a note to remove it from the notice board.
+
+## Deployment
+The project has been deployed on [Vercel](https://vercel.com/). You can access the live demo [here](https://notice-board-five.vercel.app/).
+
+## Tech Stacks Used
+* React JS
+* HTML
+* CSS
+
+## Time Duration
+The project was completed within a time frame of 1 day.
+
