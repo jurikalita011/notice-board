@@ -1,0 +1,12 @@
+.main {
+  position: relative;
+  background-color: #d5b138;
+  height: 100vh;
+  width: 100%;
+}
+.addBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+}
