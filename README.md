@@ -2,6 +2,8 @@
 
 This React app is a simple and interactive notice board that allows users to add, edit, drag, pin, and delete notes. The project is built using React JS, HTML, and CSS, and it can be easily deployed on Vercel.
 
+![notice-board](https://github.com/jurikalita011/notice-board/assets/68116821/79ffd71d-0560-42e1-b702-8e2484674d00)
+
 ## Getting Started
 
 To set up the project on your local system, follow these steps:
@@ -29,7 +31,7 @@ The app will be running on `http://localhost:3000/`.
 Click the "+" button in the top right corner to add new editable notes.
 
 ## Editing Notes
-Simply click on a note to edit its content.
+Click on a note's "Edit" button to edit its content.
 
 ## Dragging Notes
 Notes can be dragged to different positions on the notice board.
