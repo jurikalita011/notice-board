@@ -91,9 +91,13 @@ export const Note = ({ id, x, y, content, handleDelete, handleEdit }) => {
       )}
 
       {isEditing ? (
-        <button onClick={handleEditClick}>Edit</button>
+        <button className={styles.editDel} onClick={handleEditClick}>
+          Edit
+        </button>
       ) : (
-        <button onClick={handleSaveClick}>Save</button>
+        <button className={styles.editDel} onClick={handleSaveClick}>
+          Save
+        </button>
       )}
     </div>
   );

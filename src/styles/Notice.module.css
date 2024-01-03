@@ -5,9 +5,19 @@
   width: 100%;
 }
 .addBtn {
+  width: 35px;
+  height: 35px;
   position: absolute;
   top: 0;
   right: 0;
-  margin: 20px;
+  margin: 40px;
+
   cursor: pointer;
+  color: #d5b138;
+  background-color: rgb(187, 230, 230);
+  box-shadow: rgba(201, 197, 200, 0.4) -5px 5px,
+    rgba(135, 131, 133, 0.3) -10px 10px, rgba(89, 84, 87, 0.2) -15px 15px,
+    rgba(72, 69, 71, 0.1) -20px 20px, rgba(68, 63, 66, 0.05) -25px 25px;
+  border-radius: 10px;
+  border: none;
 }

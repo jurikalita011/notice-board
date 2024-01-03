@@ -30,7 +30,7 @@ export const NoticeBoard = () => {
   return (
     <div className={styles.main}>
       <button className={styles.addBtn} onClick={addNote}>
-        +
+        ➕
       </button>
       {notes.map((el) => (
         <Note
